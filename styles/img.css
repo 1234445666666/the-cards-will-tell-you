@@ -1,0 +1,19 @@
+/* .content__figure {
+
+} */
+
+
+.content__picture {
+    width: 100%;
+    height: 100%;
+}
+
+.content__picture__caption {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 18px;
+    border-bottom: 2px solid var(--text-color);
+    height: 61px;
+    padding-top: 15px;
+    font-family: var(--main-font);
+}

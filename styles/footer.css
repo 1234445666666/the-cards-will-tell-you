@@ -1,0 +1,15 @@
+.footer {
+    background-color: var(--bg-color);
+}
+
+.footer__copyright {
+    border-top: var(--bg-color);
+    padding-top: 2.5%;
+    padding-top: 10vw;
+    padding-bottom: 1vw;
+    color: var(--text-color);
+    font-size: 18px;
+    text-align: center;
+    font-family: var(--main-font);
+    background-color: var(--bg-color);
+}

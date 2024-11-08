@@ -1,0 +1,63 @@
+@import url(./fonts/fonts.css);
+@import url(./header.css);
+@import url(./title.css);
+@import url(./img.css);
+@import url(./card.css);
+@import url(./footer.css);
+
+:root {
+  --bg-color:#F3EFEC; 
+  --text-color:#312A4E;
+  --accent-color:#FFAB6B;
+  --main-font:'Raleway';
+  --accent-font:'STIX Two Text';
+}
+
+.theme_dark {
+  --bg-color:black;
+  --text-color:#B3B3B3;
+  --accent-color: transparent;
+  --main-font:'Raleway';
+  --accent-font:'STIX Two Text';
+
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.page {
+  min-inline-size: 360px;
+  max-inline-size: 1440px;
+  margin: 0 auto;
+  background-color: var(--bg-color);
+}
+
+.heading {
+color: var(--text-color);
+font-family: var(--accent-font);
+
+ } 
+
+.content content-section {
+  margin: 5vw;
+  background-color: var(--bg-color);
+}
+
+p,
+h1,
+h2,
+h3,
+blockquote,
+ul,
+ol,
+li,
+figure {
+  margin: 0;
+}
+
+
+

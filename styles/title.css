@@ -1,0 +1,120 @@
+.content__section__one {
+  background-color: var(--bg-color);
+}
+
+.content__title {
+  text-align: center;
+  font-size: clamp(1rem, -0.0938rem + 4.5vw, 2.175rem);
+  color: var(--text-color);
+  padding-top: 7vw;
+  padding-bottom: 2, 5vw;
+  font-family: var(--accent-font);
+}
+
+.content__section__two {
+  background-color: var(--bg-color);
+}
+
+.content__section__three {
+  background-color: var(--bg-color);
+}
+
+.content__section__four {
+  background-color: var(--bg-color);
+}
+
+.content__paragraph {
+  color: var(--text-color);
+  padding: 1.5rem;
+  font-size: 18px;
+  font-family: var(--main-font);
+}
+
+.content__link {
+  inherit: var(--text-color);
+  /* currentColor: var(--text-color); */
+}
+
+#link {
+  currentcolor: var(--text-color);
+}
+
+.content__blockquote {
+  text-align: left;
+  padding-bottom: 1.5rem;
+  font-style: italic;
+  font-family: var(--main-font);
+  width: 75%;
+  height: auto;
+  margin: auto;
+  font-size: 18px;
+  padding-left: 6rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.content__list {
+  list-style-type: none;
+  color: var(--text-color);
+  inline-start: 40px;
+  font-family: var(--main-font);
+}
+
+.content__list:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.content__list::before {
+  content: url(/images/marker-light.svg);
+  color: var(--text-color);
+  inline-start: 40px;
+  width: 15px;
+  height: 15px;
+}
+
+.theme_dark .content__list::before {
+  content: url(/images/marker-dark.svg);
+  color: var(--text-color);
+  inline-start: 40px;
+  width: 15px;
+  height: 15px;
+}
+
+.content__text-block_type_first-lettered:first-letter {
+  color: var(--text-color);
+  background-color: var(--accent-color);
+  font-style: mixed;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-right: 1px;
+}
+
+.theme_dark .content__text-block_type_first-lettered:first-letter {
+  background-color: var(--accent-color);
+  border: 1px solid #b3b3b3;
+  font-style: mixed;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-right: 1px;
+}
+
+@media (max-width: 768px) {
+  .content__list::before {
+    content: url(/images/marker-light.svg);
+    color: var(--text-color);
+    inline-start: 40px;
+    width: 15px;
+    height: 15px;
+  }
+}   
+
+@media (max-width: 500px) {
+  .content__list::before {
+    content: url(/images/marker-light.svg);
+    color: var(--text-color);
+    inline-start: 40px;
+    width: 15px;
+    height: 15px;
+  }
+}
